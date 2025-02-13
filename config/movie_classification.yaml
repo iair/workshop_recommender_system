@@ -1,0 +1,108 @@
+categorization:
+  genre:
+    main:
+      - Accion
+      - Aventura
+      - Animacion
+      - Comedia
+      - Crimen
+      - Documental
+      - Drama
+      - Familia
+      - Fantasia
+      - Historia
+      - Horror
+      - Musica
+      - Misterio
+      - Romance
+      - "Ciencia Ficcion"    # Quoted due to space
+      - Suspenso
+      - Belico
+      - Western
+    subgenres:
+      - Cyberpunk
+      - Steampunk
+      - "Space Opera"        # Quoted due to space
+      - Slasher
+      - Gore
+      - Mockumentary
+      - "Coming-of-Age"      # Quoted due to hyphen
+      - "Road Movie"         # Quoted due to space
+      - "Neo-Noir"          # Quoted due to hyphen
+      - Superheroes
+      - Biopic
+      - "Thriller Psicologico"  # Quoted due to space
+      - "Cine de Autor"     # Quoted due to space
+  tone_style:
+    tone:
+      - Epico
+      - Melancolico
+      - Reflexivo
+      - Oscuro
+      - Satirico
+      - Surrealista
+      - Ligero
+      - Humoristico
+      - Intenso
+      - Onirico
+      - Existencialista
+    narrative_style:         # Renamed from style for clarity
+      - Lineal
+      - "No lineal"         # Quoted due to space
+      - "Multiples perspectivas"
+      - "Narrador omnisciente"
+      - "Narrador poco fiable"
+      - Antologia
+  thematic_elements:
+    themes:                  # Added subcategory for better organization
+      - "Tecnologia y dilemas eticos"
+      - "Utopia vs. Distopia"
+      - "Inteligencia artificial"
+      - "Apocalipsis y supervivencia"
+      - "Realismo magico"
+      - "Critica social"
+      - "Identidad y dualidad"
+      - "Venganza y redencion"
+      - "Tragedia griega"
+      - "Sociedad totalitaria"
+      - Existencialismo
+      - "Naturaleza vs. Civilizacion"
+  cinematic_influences:
+    movements:
+      - "Expresionismo Aleman"
+      - "Neorrealismo Italiano"
+      - "Nouvelle Vague"
+      - "Cine de Autor"
+      - "Dogma 95"
+      - "Cine Experimental"
+    directors:
+      - Kubrick
+      - Tarantino
+      - Nolan
+      - Bergman
+      - Lynch
+      - Fellini
+      - Hitchcock
+      - Scorsese
+      - Miyazaki
+    styles:                  # Renamed from references for clarity
+      - "Inspirado en Shakespeare"
+      - "Basado en mitologia"
+      - "Homenaje a Hollywood clasico"
+      - "Influencias del anime japones"
+      - "Estetica cyberpunk"
+  target_audience:          # Renamed from audience for clarity
+    mass_market:            # Renamed from mass for clarity
+      - Blockbuster
+      - Familiar
+      - "Cine comercial"
+    cinephile:
+      - Festivalero
+      - "Cine de culto"
+      - "Cine de arte"
+      - Experimental
+    niche:                  # Renamed from specialized for clarity
+      - "Amantes del cine clasico"
+      - "Fanaticos de la ciencia ficcion dura"
+      - "Seguidores del cine independiente"
+      - "Audiencia nostalgica"

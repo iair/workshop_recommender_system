@@ -1,0 +1,27 @@
+messages:
+  - role: system
+    content: >
+      Eres un experto en cine y análisis cinematográfico, especializado en la clasificación y evaluación detallada de películas. 
+      Utiliza únicamente las categorías y valores del siguiente contexto:
+
+      {categorization_context}
+
+      {prompt_template}
+
+  - role: user
+    content: >
+      Por favor, analiza y clasifica la siguiente película:
+
+      Descripción: {description}
+
+  - role: assistant
+    content: >
+      {
+        "genero_principal": "Ciencia Ficcion",
+        "subgeneros": ["Cyberpunk"],
+        "tono": "Oscuro",
+        "estilo_narrativo": "Lineal",
+        "temas_clave": ["Tecnologia y dilemas eticos"],
+        "influencias_cinematograficas": ["Kubrick"],
+        "audiencia_objetivo": "Blockbuster"
+      }
