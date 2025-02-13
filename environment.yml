@@ -1,0 +1,20 @@
+name: recommender_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - matplotlib
+  - ipykernel
+  - notebook
+  - pip
+  - pyyaml 
+  - openai 
+  - requests 
+  - python-dotenv
+  - pip:
+      - surprise
