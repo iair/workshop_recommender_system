@@ -20,8 +20,7 @@ The Workshop Recommender System leverages machine learning techniques to suggest
 ## Features
 
 - **Personalized Recommendations**: Tailors workshop suggestions based on individual user profiles.
-- **Data-Driven Insights**: Utilizes historical data to improve recommendation accuracy.
-- **Scalability**: Designed to handle a growing number of users and workshops efficiently.
+- **Feature creation**: Create features using prompts, dictionaries, and the OpenAI LLMs.
 
 ## Source Data
 
@@ -54,13 +53,13 @@ To set up the project locally, follow these steps:
 
 3. Configure API Key for OpenAI:
 
-To use the recommendation system with AI capabilities, you will need to configure an API key for OpenAI.
-Set up the key in your environment variables:
-
-   ```bash
-   export OPENAI_API_KEY="your-api-key-here"
-   ```
-The system is configured to use the 40-mini model for recommendatio
+   To use the recommendation system with AI capabilities, you will need to configure an API key for OpenAI.
+   Set up the key in your environment variables:
+   
+      ```bash
+      export OPENAI_API_KEY="your-api-key-here"
+      ```
+   The system is configured to use the 40-mini model for recommendatio
 
 
 ## Usage
