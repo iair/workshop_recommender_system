@@ -53,11 +53,11 @@ To set up the project locally, follow these steps:
    ```
 
 3. Configure API Key for OpenAI:
-4. 
+
 To use the recommendation system with AI capabilities, you will need to configure an API key for OpenAI.
 Set up the key in your environment variables:
 
-    ```bash
+   ```bash
    export OPENAI_API_KEY="your-api-key-here"
    ```
 The system is configured to use the 40-mini model for recommendatio
