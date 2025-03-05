@@ -40,7 +40,7 @@ To set up the project locally, follow these steps:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/iair/workshop_recommender_system.git
+   git clone git@github.com:iair/workshop_recommender_system.git
    cd workshop_recommender_system
    ```
 
@@ -52,23 +52,20 @@ To set up the project locally, follow these steps:
    pip install -r requirements.txt
    ```
 
-3. **Set up the database**:
+3. Configure API Key for OpenAI:
+4. 
+To use the recommendation system with AI capabilities, you will need to configure an API key for OpenAI.
+Set up the key in your environment variables:
 
-   Initialize the database with:
-
-   ```bash
-   python setup_database.py
+    ```bash
+   export OPENAI_API_KEY="your-api-key-here"
    ```
+The system is configured to use the 40-mini model for recommendatio
+
 
 ## Usage
 
-Once installed, you can start the recommendation system with:
-
-```bash
-python main.py
-```
-
-For detailed usage instructions and examples, refer to the [documentation](docs/usage.md).
+Once installed, you can start executing the notebooks to check the differents results
 
 ## Contributing
 
